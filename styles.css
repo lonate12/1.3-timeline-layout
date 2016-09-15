@@ -149,7 +149,7 @@ p {
 }
 
 /* Media Query at a 720px breakpoint */
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:720px),only screen and (max-device-width: 720 px) {
   .container {
     width: 92%;
   }
