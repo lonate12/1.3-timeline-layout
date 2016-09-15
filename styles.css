@@ -180,13 +180,17 @@ p {
     position: relative;
     margin-bottom: 15px;
     text-align: left;
+    width: 100%
   }
 
   .date::before, .date::after {
-    display:none;
+    top: 2px;
+    right: 0px;
+    position: absolute;
   }
 
   .date, .time {
     width: 100%;
+    position: relative;
   }
 }
